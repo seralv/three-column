@@ -1,0 +1,10 @@
+main {
+    max-width: $max-width;
+    margin: 80px 20px;
+    @include respond-to('large') {
+        margin: 100px auto;
+        width: 70%;
+        display: flex;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,13 @@
+a {
+    background-color: $very-light-gray;
+    border: 0;
+    padding: 15px 25px;
+    border-radius: 50px;
+    text-decoration: none;
+    &:hover {
+        background: none;
+        border: solid 2px $very-light-gray;
+        color: $very-light-gray;
+        text-decoration: none;
+    }
+}

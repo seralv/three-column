@@ -1,0 +1,24 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+
+/// Regular font family
+/// @type List
+$text-font-lexend: 'Lexend Deca', sans-serif;
+$text-font-big-shoulders: 'Big Shoulders Display', cursive;
+
+
+/// Colors
+$bright-orange: hsl(31, 77%, 52%);
+$dark-cyan: hsl(184, 100%, 22%);
+$very-dark-cyan: hsl(179, 100%, 13%);
+
+/// Neutral colors
+$transparent-white: hsla(0, 0%, 100%, 0.75); ///  (paragraphs)
+$very-light-gray: hsl(0, 0%, 95%); /// (background, headings, buttons)
+
+
+/// Container's maximum width
+/// @type Length
+$max-width: 1300px !default;
